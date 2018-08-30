@@ -1,0 +1,22 @@
+{
+  "name": "@feathers-plus/test-utils",
+  "version": "0.1.0",
+  "description": "Useful utilities for tests. Use by @feathers-plus/cli.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feathers-plus/test-utils.git"
+  },
+  "author": "john J. Szwaronek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feathers-plus/test-utils/issues"
+  },
+  "homepage": "https://github.com/feathers-plus/test-utils#readme"
+}
