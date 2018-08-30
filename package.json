@@ -2,10 +2,7 @@
   "name": "@feathers-plus/test-utils",
   "version": "0.1.1",
   "description": "Useful utilities for tests. Use by @feathers-plus/cli.",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "main": "lib/",
   "scripts": {
     "release:patch": "npm version patch && npm publish",
     "release:minor": "npm version minor && npm publish",
@@ -20,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/feathers-plus/test-utils/issues"
   },
-  "homepage": "https://github.com/feathers-plus/test-utils#readme"
+  "homepage": "https://github.com/feathers-plus/test-utils#readme",
+  "dependencies": {
+    "@feathersjs/client": "^3.5.6",
+    "@feathersjs/primus": "^3.2.2",
+    "@feathersjs/rest-client": "^1.4.2",
+    "axios": "^0.18.0",
+    "lodash.merge": "^4.6.1",
+    "socket.io-client": "^2.1.1"
+  }
 }
