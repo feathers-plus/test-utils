@@ -1,6 +1,6 @@
 {
   "name": "@feathers-plus/test-utils",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Useful utilities for tests. Use by @feathers-plus/cli.",
   "main": "lib/",
   "scripts": {
